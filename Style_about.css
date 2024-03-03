@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.97);
+    overflow: hidden;
+    border: 4px solid blueviolet;
+}
+.Nav{
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 4%;
+    align-items: center;
+}
+.Nav2{
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    color: blueviolet;
+    font-size: 40px;  
+    margin-left: 7%;
+}
+.Nav3{
+    list-style: none;
+    display: flex;
+    margin-right: 7%;
+}
+.navitems{
+    margin: 8px;
+    padding: 20px;
+}
+.navitems a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navitems a:hover {
+    color: blueviolet;
+}
