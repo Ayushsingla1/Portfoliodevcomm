@@ -42,7 +42,6 @@ body{
 .navitems a:hover {
     color: blueviolet;
 }
-
 section{
     padding: 5%;
     padding-top: 0%;
@@ -93,7 +92,6 @@ h1{
 section div img{
     width: 50%;
     background-color: black;
-    /* border-radius: 5px; */
     margin-left: 25%;
     }
 
@@ -109,7 +107,11 @@ section{
     }
 }
 @media(max-width:600px){
+    body{
+        border: none;
+    }
     .Nav{
+        border-bottom: 3px solid blueviolet;
         font-family: "Trebuchet MS", Tahoma, sans-serif;
         background-color: black;
         display: flex;
