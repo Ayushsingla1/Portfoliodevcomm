@@ -8,7 +8,6 @@ body{
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.97);
     border: 4px solid blueviolet;
-    box-sizing: border-box;
     font-family: "Trebuchet MS", Tahoma, sans-serif;
     overflow: hidden;
 }
@@ -16,7 +15,7 @@ body{
     background-color: black;
     display: flex;
     justify-content: space-between;
-    height: 11vh;
+    /* height: 11vh; */
     align-items: center;
 }
 .Nav2{

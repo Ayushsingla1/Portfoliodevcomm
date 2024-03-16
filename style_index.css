@@ -15,7 +15,7 @@ body{
     background-color: black;
     display: flex;
     justify-content: space-between;
-    height: 11vh;
+    /* height: 11vh; */
     align-items: center;
 }
 .Nav2{
@@ -44,7 +44,7 @@ body{
 }
 .container__{
     display: grid;
-    height: 88vh;
+    height: 93vh;
     column-gap: 2%;
     grid-template-columns: 1fr 1fr;
 }
