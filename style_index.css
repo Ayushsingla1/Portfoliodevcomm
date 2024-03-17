@@ -10,6 +10,7 @@ body{
     border: 4px solid blueviolet;
     box-sizing: border-box;
     font-family: "Trebuchet MS", Tahoma, sans-serif;
+    overflow: none;
 }
 .Nav{
     background-color: black;
@@ -44,7 +45,7 @@ body{
 }
 .container__{
     display: grid;
-    height: 93vh;
+    height: 88vh;
     column-gap: 2%;
     grid-template-columns: 1fr 1fr;
 }
